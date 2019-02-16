@@ -1,0 +1,207 @@
+<!DOCTYPE html> 
+ <html> 
+ 
+ 
+ <head> 
+     <style> 
+         #navbar a { 
+             text-decoration: white; 
+            font-size: 40px; 
+             display: block; 
+             color: red; 
+             padding: 5px 6px 6px 11px; 
+         }           
+         #navbar { 
+             height: 100%; 
+             width: 16%; 
+             position: fixed; 
+             z-index: 1; 
+             top: 0; 
+             left: 0; 
+             background-color:black ; 
+             overflow-x: hidden; 
+         } 
+         
+         #navbar a:hover { 
+             color: white; 
+         } 
+          
+         #main-doc { 
+             margin-left: 16%; 
+             margin-top: -33px; 
+         } 
+          
+         header { 
+             background-color: black ; 
+             text-align: center; 
+             font-size: 200%; 
+             color: white; 
+             margin-left: -5px; 
+         } 
+          
+          @media (min-width: 768px) and (max-width: 1024px) { 
+             #navbar a { 
+                 font-size: 23px; 
+             } 
+         } 
+          
+         #home_section, 
+         #about_Jhealth { 
+             font-family: Verdana, Geneva, sans-serif; 
+             padding: 0px 15px; 
+         } 
+          
+         @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+             #navbar a { 
+                 font-size: 17px; 
+             } 
+         } 
+          
+         @media (min-width: 481px) and (max-width: 767px) { 
+             #navbar a { 
+                 font-size: 10px; 
+             } 
+         } 
+          
+         @media (min-width: 320px) and (max-width: 400px) { 
+             #navbar a { 
+                 font-size: 7px; 
+             } 
+         } 
+          
+         .div_boarder { 
+             padding: 1%; 
+             background-color: #dccdea; 
+         } 
+          
+         ul { 
+             list-style: circle; 
+         } 
+   
+          
+         input[type=text], 
+         textarea { 
+             padding: 1%; 
+             border: 2px solid #cab4ca; 
+             width: 40%; 
+         } 
+          
+         label { 
+             font-size: 20px; 
+             font-weight: bold; 
+         } 
+     </style> 
+ </head> 
+ 
+ 
+ <body> 
+     <nav id="navbar"> 
+         <h4 style="color: white; margin-left: 15px; font-weight: bolder; position: fixed; z-index: 1;">HEALTH AND</br> BEAUTY OFFERS</h4><br><br><br> 
+         <hr> 
+         <ul> 
+             <a class="nav-link" href="#About_Jhealth_and_beauty">About Jhealth and beauty</a> 
+             <a class="nav-link" href="#health_products">health products</a> 
+             <a class="nav-link" href="#beauty_products">beauty products </a> 
+             <a class="nav-link" href="#workouts">workouts</a> 
+             <a class="nav-link" href="#contact_Jhealth">Contact Jhealth</a> 
+         </ul> 
+    </nav> 
+
+ 
+    <div id="main-doc"> 
+        <section class="main-section" id="About_Jhealth_and_beauty"> 
+            <header style="color: green"> 
+                <h2>About Jhealth and beauty</h2></header>   
+                <div style="font-family: Verdana, Geneva, sans-serif;"> 
+                <p>Jhealth and beauty provides you with all you have to know about your health, how to get that bright appearance and the workouts to get that dream body especially that butt, hips and waist. </p>  
+        </section> 
+ 
+ 
+        <section class="main-section" id="health_products"> 
+             <header style="color: green"> 
+             <h2>health products</h2></header> 
+             <div style="font-family: Verdana, Geneva, sans-serif;"> 
+             <p>Jhealth provides you with a variety of medicine you can use for your illnesses:<ol> 
+                 <li>pain killers like panadol</li>  
+                 <li>ice drops for example the famous probeta-n</li> 
+                 <li>vitamins</li> 
+                 <li>food suplements</li>  
+                 <li>drugs for typhoid and malaria</li>  
+         </section> 
+ 
+ 
+         <section class="main-section" id="beauty_products"> 
+             <header style="color: green"> 
+                <h2>beauty products</h2> 
+             </header> 
+             <div style="font-family: Verdana, Geneva, sans-serif;"> 
+                 <p>some of these products you have them in your kitchens, they are very afordable and natural with no side effects: 
+                     <ol> 
+                         <li>tomatoes</li> 
+                         <li>oranges</li> 
+                         <li>milk</li> 
+                         <li>aloe vera juice</li>
+                         <li>rose water</li>
+                         <li>ginger</li>
+                         <li>tumeric</li>
+                         <li>olive oil</li>
+                         <li>coconut oil</li>
+                     </ol> 
+                 </p> 
+              
+         <br> 
+          
+         </section> 
+ 
+ 
+         <section class="main-section" id="workouts"> 
+             <header style="color: green"> 
+                 <h2>workouts</h2> 
+             </header> 
+             <div style="font-family: Verdana, Geneva, sans-serif;"></div> 
+             <p>workouts that will make you get that dream body<ol>
+             	<figcaption>lunges for the lower butt</figcaption><li><img src="1.png" width="100px" height="100px"></li></br></br>
+             	<figcaption>squats for a better lifted butt</figcaption><li><img src="2.png" width="100px" height="100px"></li></br></br>
+             	<figcaption>butt bridge for a better butt and back</figcaption><li><img src="3.png" width="100px" height="100px"></li>
+             </ol> 
+             </p> 
+         </section> 
+
+ 
+        <section class="main-section" id="contact_Jhealth"> 
+            <header> 
+                <h2>Contact Jhealth</h2> 
+            </header> 
+            <div class="div_boarder"> 
+                <h2 style="text-align: center">For more Information</h2> 
+                <div><label>Email: </label><b><font color="black">lanyerojoyce5@gmail.com</font></b></div> 
+                <div><label>Tel: </label><b><font color="black">+256779346877</font></b></div> 
+
+ 
+                <form> 
+                    <br> 
+                    <div> 
+                        <label>full Names</label><br> 
+                        <input type="text" value="" placeholder="Name" /> 
+                    </div><br> 
+
+                    <div>
+                        <label>your email here</label><br> 
+                        <input type="text" value="" placeholder="Email" /> 
+                    </div><br>  
+ 
+                    <div> 
+                        <label>Comments</label><br> 
+                        <textarea placeholder="Write your Request" rows="4"></textarea> 
+                    </div><br> 
+
+ 
+                    <input style="padding: 1%; background-color:white; border: none; color:black ; font-weight: bolder; cursor: pointer; margin-left: 34%" type="submit" value="Submit" /> 
+                </form> 
+            </div><br><br><br> 
+        </section> 
+    </div> 
+</body>  
+ 
+</html> 
+
